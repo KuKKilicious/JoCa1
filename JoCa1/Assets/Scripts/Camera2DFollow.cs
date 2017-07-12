@@ -49,5 +49,10 @@ namespace UnityStandardAssets._2D
 
             m_LastTargetPosition = target.position;
         }
+        private void LateUpdate()
+        {
+
+            transform.position = new Vector3(transform.position.x, 4.5f,transform.position.z);
+        }
     }
 }
