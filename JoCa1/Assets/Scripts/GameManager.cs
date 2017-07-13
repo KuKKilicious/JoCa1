@@ -8,17 +8,19 @@ public class GameManager : Singleton<GameManager> {
     public UnityEngine.UI.Text ScoreDisplay;
     public UnityEngine.UI.Text TimeDisplay;
     public UnityEngine.UI.Text GameOverText;
+    public UnityEngine.UI.Text WinText;
     public GameObject player;
     private bool timestopped;
+
     protected GameManager() { }
     // Use this for initialization
-    void Start () {
+    void Start() {
         ScoreDisplay.text = "0";
         TimeDisplay.text = "" + timelimit;
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update() {
         if (!timestopped)
         {
             timelimit -= Time.deltaTime;
@@ -46,5 +48,9 @@ public class GameManager : Singleton<GameManager> {
     private void stopTime()
     {
         timestopped = true;
+    }
+    public void winGame()
+    {
+        WinText.enabled = true;
     }
 }
