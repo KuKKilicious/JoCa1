@@ -339,7 +339,6 @@ GameObject:
   - component: {fileID: 630386686}
   - component: {fileID: 630386691}
   - component: {fileID: 630386690}
-  - component: {fileID: 630386692}
   m_Layer: 0
   m_Name: FiN_animation_0
   m_TagString: Untagged
@@ -468,18 +467,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa8abfa112018ea44bee2c86e5138482, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &630386692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 630386685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b584db2dd35375a4592cdccf80955f68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 0
 --- !u!1 &689831324
 GameObject:
   m_ObjectHideFlags: 0
