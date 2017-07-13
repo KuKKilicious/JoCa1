@@ -84,6 +84,7 @@
     <Compile Include="Assets\DestroyAnimation.cs" />
     <Compile Include="Assets\PlayerWinZone.cs" />
     <Compile Include="Assets\Scripts\AI_Attack.cs" />
+    <Compile Include="Assets\Scripts\AutoAnimationDestroy.cs" />
     <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\Scripts\CreateGrid.cs" />
     <Compile Include="Assets\Scripts\DeathZone.cs" />
@@ -91,7 +92,6 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Singleton.cs" />
     <Compile Include="Assets\Scripts\groundEnable.cs" />
-    <Compile Include="Assets\Sprites\AutoAnimationDestroy.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GPUInstancing.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />
