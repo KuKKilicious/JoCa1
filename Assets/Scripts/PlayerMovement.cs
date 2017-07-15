@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.GetButtonDown("Jump") && grounded)
+        if (Input.GetButton("Jump") && grounded)
         {
             Debug.Log("Jump");
             rb2d.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
